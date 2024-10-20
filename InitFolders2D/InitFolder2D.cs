@@ -14,7 +14,9 @@ public static class ProjectInitializer3D
                                             "Assets/Audio", 
                                             "Assets/Materials",
                                             "Assets/Prefabs",
-                                            "Assets/Sprites",                                       
+                                            "Assets/Scripts",
+                                            "Assets/Sprites", 
+                                            "Assets/Textures",                                      
                                             "Assets/TileMaps",
                                             "Assets/UI"};
         foreach (string folder in folders)
