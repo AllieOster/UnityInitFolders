@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-public static class ProjectInitializer3D
+public static class ProjectInitializer2D
 {
     [InitializeOnLoadMethod]
     private static void OnProjectLoad()
