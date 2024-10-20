@@ -13,11 +13,9 @@ public static class ProjectInitializer3D
         string[] folders = new string[] { "Assets/Animations", 
                                             "Assets/Audio", 
                                             "Assets/Materials",
-                                            "Assets/Models", 
                                             "Assets/Prefabs",
-                                            "Assets/Scripts",
-                                            "Assets/Shaders",
-                                            "Assets/Textures",
+                                            "Assets/Sprites",                                       
+                                            "Assets/TileMaps",
                                             "Assets/UI"};
         foreach (string folder in folders)
         {
