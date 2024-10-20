@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
-public static class ProjectInitializer2D
+
+public static class ProjectInitializer3D
 {
     [InitializeOnLoadMethod]
     private static void OnProjectLoad()
@@ -11,14 +12,13 @@ public static class ProjectInitializer2D
     {
         string[] folders = new string[] { "Assets/Animations", 
                                             "Assets/Audio", 
-                                            "Assets/Materials", 
+                                            "Assets/Materials",
+                                            "Assets/Models", 
                                             "Assets/Prefabs",
                                             "Assets/Scripts",
-                                            "Assets/Sprites",
+                                            "Assets/Shaders",
                                             "Assets/Textures",
-                                            "Assets/TileMaps",
                                             "Assets/UI"};
-
         foreach (string folder in folders)
         {
             if (!AssetDatabase.IsValidFolder(folder))
@@ -26,6 +26,12 @@ public static class ProjectInitializer2D
                 AssetDatabase.CreateFolder("Assets", folder.Split('/')[1]);
             }
         }
+        string initFolderPath = "Assets/InitFolders2D";
+        if (AssetDatabase.IsValidFolder(initFolderPath))
+        {
+            AssetDatabase.DeleteAsset(initFolderPath);
+        }
+
         AssetDatabase.Refresh();
     }
 }

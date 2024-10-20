@@ -25,6 +25,12 @@ public static class ProjectInitializer3D
                 AssetDatabase.CreateFolder("Assets", folder.Split('/')[1]);
             }
         }
+        string initFolderPath = "Assets/InitFolders2D";
+        if (AssetDatabase.IsValidFolder(initFolderPath))
+        {
+            AssetDatabase.DeleteAsset(initFolderPath);
+        }
+
         AssetDatabase.Refresh();
     }
 }
