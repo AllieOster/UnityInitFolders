@@ -5,7 +5,7 @@
 ‧͙⁺˚*･༓☾　Initialization scripts to start your projects a little bit faster　☽༓･*˚⁺‧͙
 
 
-1 - Close this somewhere super easy to find on your computer.
+1 - Clone this somewhere super easy to find on your computer.
 
 2 - Create your Unity project and while it's taking all this time to charge, go find your new folder creator and BE READY !
 
