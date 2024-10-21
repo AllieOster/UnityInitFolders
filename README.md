@@ -5,9 +5,9 @@
 ‧͙⁺˚*･༓☾　Initialization scripts to start your projects a little bit faster　☽༓･*˚⁺‧͙
 
 
-1 - Pull this somewhere super easy to find on your computer.
+1 - Close this somewhere super easy to find on your computer.
 
-2 - Create your Unity project.
+2 - Create your Unity project and while it's taking all this time to charge, go find your new folder creator and BE READY !
 
 3 - Once opened, drag and drop the right folder into your Assets folder, in the "Project" area down your screen.
     --> If you're opening a new 2D project, drag & drop the folder named "InitFolders2D"
